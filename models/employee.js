@@ -7,7 +7,7 @@ const employeeSchema = new mongoose.Schema({
   rang: String,
   department: {
     type: String,
-    enum: ['Commdando Groep', 'VUSTCO Staf', 'VERKENNING Staf', 'INFANTRIE Staf', 'VUSTCO', 'VERKENNING', 'INFRANTRIE'] // Voeg hier alle afdelingen toe
+    enum: ['Commdando Groep', 'VERKENNING Staf', 'INFANTRIE Staf', 'VERKENNING', 'INFRANTRIE'] // Voeg hier alle afdelingen toe
   }
 });
 
