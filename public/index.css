@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  max-width: 800px;
+}
+
+.employee-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 200px;
+}
+
+.employee-card h3 {
+  margin-top: 0;
+}
+
+.employee-card p {
+  margin-bottom: 8px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  top: 0px;
+  position: fixed;
+  background-color: #333;
+  color: #fff;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  margin: 0;
+}
+
+.department-container {
+  background-color: #f9f9f9;
+  border: 2px solid #000000; /* Maak de rand 2px dik */
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
